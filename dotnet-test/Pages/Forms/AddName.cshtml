@@ -1,0 +1,12 @@
+﻿@page
+@model NameModel
+@{
+    ViewData["Title"] = "Add Name";
+}
+
+<h1>Add Name</h1>
+<form method="post">
+    <input type="text" asp-for="YourName.FirstName" placeholder="First Name" />
+    <input type="text" asp-for="YourName.LastName" placeholder="Last Name" />
+    <button type="submit">Submit</button>
+</form>
